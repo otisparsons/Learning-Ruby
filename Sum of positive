@@ -1,0 +1,15 @@
+def positive_sum(arr)
+
+total = 0
+  
+ arr.each {|number|
+     if number > 0 
+     total + number 
+     
+     total = total + number 
+       end
+    }
+  
+  return total 
+  
+end
