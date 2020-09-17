@@ -1,0 +1,6 @@
+def abbrev_name(name)
+
+  name.split[0].chr.capitalize + "." + name.split[1].chr.capitalize
+  
+  
+end
